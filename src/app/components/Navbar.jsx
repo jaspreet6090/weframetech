@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="w-full sm:w-auto mb-4 sm:mb-0">
           <SearchBar />
         </div>
-        <div className="sm:hidden ml-8">
+        <div className="sm:hidden ml-6">
           {/* Hamburger Icon */}
           <button onClick={toggleMenu} className="text-3xl text-primary ">
             {isOpen ? <HiX /> : <HiMenu />}
