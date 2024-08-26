@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Card = ({color }) => {
   return (
-    <div className='border-secondary border-2 rounded-tl-[30px] rounded-br-[30px] w-[320px]  '>
+    <div className='border-secondary border-2 rounded-tl-[30px] rounded-br-[30px] max-w-[400px]  '>
     {color == "red"?  <div className="flex items-center justify-start ml-4 pt-4 ">
         <div className="rounded-[30px] bg-[#A10C0C] bg-opacity-5  relative w-[119px]  flex ">
         <LuDot />
@@ -29,10 +29,10 @@ const Card = ({color }) => {
       </div>
       <div className=" bg-primary bg-opacity-30 border-t-2 border-secondary  p-6 flex flex-col gap-3 ">
         <div className="text-text bg-primary bg-opacity-30 w-20 rounded-sm  px-4 py-1 font-semibold">Canify</div>
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
           <div className="text-text bg-accent rounded-sm px-4 py-1">THC {color == "red " ? "18%" : "25%" } </div>
           <div className="text-accent bg-primary rounded-sm px-4 py-1">CBD &lt; 1% </div>
-          <img src="/Bestrahlt.png" alt="bestrahlt"  height={24} width={24} cover={true} />
+          <Image src="/Bestrahlt.png" alt="bestrahlt"  height={26} width={26} fit={true} />
         </div>
         <span className='text-text font-bold text-[18px]'>
         {color == "red" ? "Cannabis Flos 18/1 PT " : "Cannabis Flos 22/1 PT " } <div className=""></div>
