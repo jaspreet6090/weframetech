@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div>
     <MainNavbar />
-    <section className='flex  justify-between px-7 mt-16 ' >
+    <section className='flex flex-col sm:flex-row   justify-between px-7 mt-16 mb-10' >
       <section className='flex-1 mr-[80px]'>
         <Filter />
       </section>

@@ -32,7 +32,7 @@ const Card = ({color }) => {
         <div className="flex justify-between">
           <div className="text-text bg-accent rounded-sm px-4 py-1">THC {color == "red " ? "18%" : "25%" } </div>
           <div className="text-accent bg-primary rounded-sm px-4 py-1">CBD &lt; 1% </div>
-          <img src="/Bestrahlt.png" alt="bestrahlt"  height={24} width={24} />
+          <img src="/Bestrahlt.png" alt="bestrahlt"  height={24} width={24} cover={true} />
         </div>
         <span className='text-text font-bold text-[18px]'>
         {color == "red" ? "Cannabis Flos 18/1 PT " : "Cannabis Flos 22/1 PT " } <div className=""></div>

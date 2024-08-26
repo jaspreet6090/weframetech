@@ -11,11 +11,14 @@ const home = () => {
         <NavigationBar />
         <main className='  '>
         <Main />
-          <h1 className='text-primary'>main </h1>
+         
 
         </main>
       </div>
+      <div className="w-full">
       <Footer />
+
+      </div>
     </div>
   )
 }

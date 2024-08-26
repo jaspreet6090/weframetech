@@ -5,7 +5,7 @@ import { RxCross2 } from "react-icons/rx";
 
 const Filter = () => {
   return (
-    <div className='flex flex-col gap-6' >
+    <div className='flex flex-col gap-6 ' >
         <div className="text-text text-center bg-primary bg-opacity-30 px-0.5 py-2 text-[24px] font-semibold rounded-md" >Filters</div>
         <PriceSlider text = "Preis" sign="€"/>
         <div className=" border-t-2 border-primary border-opacity-30 "></div> 
